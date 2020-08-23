@@ -127,39 +127,10 @@ ul li a {
     display: grid;
     padding: 23px 23px;
     grid-template-columns: 1fr 1fr 70% 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-    "about store menu-space gmail images menu-icon profile-pic"
-    ". . google-logo . . . .";
-}
-
-.about {
-    grid-area: about;
-}
-
-.store {
-    grid-area: store;
 }
 
 .menu-space {
     padding: 20px 500px;
-    grid-area: menu-space;
-}
-
-.gmail {
-    grid-area: gmail;
-}
-
-.images {
-    grid-area: images;
-}
-
-.menu-icon {
-    grid-area: grid-icon;
-}
-
-.profile-pic {
-    grid-area: profile-pic;
 }
 
 .google-logo {
@@ -167,6 +138,9 @@ ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img {
