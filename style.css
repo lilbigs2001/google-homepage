@@ -134,13 +134,10 @@ ul li a {
 }
 
 .google-logo {
-    grid-area: google-logo;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 300px;
+    width: 270px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 40px;
 }
 
 img {
@@ -153,4 +150,10 @@ img {
 
 .logo {
     width: 700px;
+}
+
+form {
+    width: 150px;
+    margin: 0 auto;
+    padding-top: 25px;
 }
