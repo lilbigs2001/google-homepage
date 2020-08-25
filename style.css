@@ -161,6 +161,10 @@ header li a:hover {
 
 /* Center logo and search bar */
 
+.centerpiece {
+    margin-top: 100px;
+}
+
 .google-logo {
     display: block;
     margin-left: auto;
