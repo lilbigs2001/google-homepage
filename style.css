@@ -153,7 +153,55 @@ img {
 }
 
 form {
-    width: 150px;
+    width: 250px;
     margin: 0 auto;
     padding-top: 25px;
+}
+
+input {
+    position: relative;
+    left: 40px;
+    margin: 0 0 20px 0;
+}
+
+button {
+    display: inline-block;
+}
+
+footer {
+    height: 40px;
+    background-color: #f1f1f1;
+    border: 1px solid #e7e7e7;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0 15px;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+footer li {
+    float: left;
+}
+
+footer li a {
+    display: block;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    padding: 14px 0;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    text-decoration: underline;
+}
+
+.right-list {
+    float: right;
 }
