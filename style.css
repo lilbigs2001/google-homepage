@@ -109,6 +109,42 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header {
+    height: 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 10px 5px;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+header li {
+    float: left;
+}
+
+header li a {
+    display: block;
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+    padding: 14px 0;
+    text-decoration: none;
+}
+
+header li a:hover {
+    text-decoration: underline;
+}
+
+.right-list {
+    float: right;
+}
+
 ul li {
     list-style: none;
     display: inline-block;
