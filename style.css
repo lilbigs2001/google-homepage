@@ -127,13 +127,15 @@ header ul {
 }
 
 header li {
+    display: inline-block;
     float: left;
+    padding: 0px 15px;
 }
 
 header li a {
     display: block;
     color: #666;
-    font-size: 12px;
+    font-size: 13px;
     text-align: center;
     padding: 14px 0;
     text-decoration: none;
@@ -145,21 +147,19 @@ header li a:hover {
 
 .right-list {
     float: right;
-}
-
-ul li {
-    list-style: none;
-    display: inline-block;
-    float: left;
-    padding: 0px 15px;
-}
-
-ul li a {
-    text-decoration: none;
-    font-size: 13px;
-    font-family: arial,sans-serif;
     color: #222222;
 }
+
+.img-size {
+    width: 30px;
+}
+
+.round-image {
+    border-radius: 50%;
+    width: 30px;
+}
+
+/* Center logo and search bar */
 
 .google-logo {
     display: block;
@@ -168,18 +168,6 @@ ul li a {
     padding-top: 40px;
     width: 270px;
     float: center;
-}
-
-img {
-    width: 30px;
-}
-
-.round-image {
-    border-radius: 50%;
-}
-
-.logo {
-    width: 700px;
 }
 
 form {
@@ -197,6 +185,8 @@ input {
 button {
     display: inline-block;
 }
+
+/* Footer */
 
 footer {
     height: 40px;
@@ -216,6 +206,7 @@ footer ul {
 }
 
 footer li {
+    display: inline-block;
     float: left;
 }
 
@@ -224,14 +215,10 @@ footer li a {
     color: #666;
     font-size: 14px;
     text-align: center;
-    padding: 14px 0;
+    padding: 14px 14px;
     text-decoration: none;
 }
 
 footer li a:hover {
     text-decoration: underline;
-}
-
-.right-list {
-    float: right;
 }
