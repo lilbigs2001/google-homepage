@@ -109,6 +109,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Header */
+
 header {
     height: 40px;
     position: fixed;
@@ -159,21 +161,13 @@ ul li a {
     color: #222222;
 }
 
-.grid {
-    display: grid;
-    padding: 23px 23px;
-    grid-template-columns: 1fr 1fr 70% 1fr 1fr 1fr 1fr;
-}
-
-.menu-space {
-    padding: 20px 500px;
-}
-
 .google-logo {
-    width: 270px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 40px;
+    width: 270px;
+    float: center;
 }
 
 img {
